@@ -51,6 +51,9 @@ If you find this work useful, consider giving this repository a star :star: and 
 
 ```
 
+## Note
+This is not the exact original code and is a re-implementation of our CVPR 2025 paper. But the core code and experimental results are almost the same, with slight difference.
+
 ## Acknowledgememnt
 
 The code is based on [CompressAI](https://github.com/InterDigitalInc/CompressAI), [Mamba](https://github.com/state-spaces/mamba), [Vmamba](https://github.com/MzeroMiko/VMamba), [MambaVision](https://github.com/NVlabs/MambaVision), [ELIC](https://github.com/VincentChandelier/ELiC-ReImplemetation), [MambaVC](https://github.com/QinSY123/2024-MambaVC). Thanks for these great works and open sourcing! 
