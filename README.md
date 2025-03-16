@@ -13,7 +13,11 @@ This repo is the official implementation of CVPR 2025 paper
 
 
 ## Architecture
+![structure](figures/structure.png)
 
+
+spatial-channel context model
+![context](figures/context.png)
 
 ## Environmental Setup
 ### Install CompressAI
@@ -43,6 +47,8 @@ cd kernels/selective_scan && pip install .
 ```
 
 ## Experimental Results
+
+![results](figures/results.png)
 
 ## :blue_book: Citation
 If you find this work useful, consider giving this repository a star :star: and citing :bookmark_tabs: our paper as follows:
