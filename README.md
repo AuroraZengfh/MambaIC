@@ -13,10 +13,12 @@ This repo is the official implementation of CVPR 2025 paper
 
 
 ## Architecture
+
+overall structure of MambaIC
 ![structure](figures/structure.png)
 
 
-spatial-channel context model
+the proposed spatial-channel context model
 ![context](figures/context.png)
 
 ## Environmental Setup
@@ -48,6 +50,8 @@ cd kernels/selective_scan && pip install .
 
 ## Experimental Results
 
+
+Results on Kodak
 ![results](figures/results.png)
 
 ## :blue_book: Citation
