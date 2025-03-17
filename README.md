@@ -37,6 +37,27 @@ cd kernels/selective_scan && pip install .
 ```
 ### Dataset
 
+```
+MambaIC
+|-- dataset
+    |-- flickr30k
+        |-- train_1.jpg
+        |-- train_2.jpg
+        ...
+    |-- Kodak
+        |-- kodak_1.jpg
+        |-- kodak_2.jpg
+        ...
+    |-- CLIC
+        |-- CLIC_1.jpg
+        |-- CLIC_2.jpg
+        ... 
+    |-- Tecnick
+        |-- Tecnick_1.jpg
+        |-- Tecnick_2.jpg
+        ...
+```
+
 
 ###
 
