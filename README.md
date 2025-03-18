@@ -6,7 +6,15 @@ This repo is the official implementation of CVPR 2025 paper
 >
 > Fanhu Zeng, Hao Tang, Yihua Shao, Siyu Chen, Ling Shao, Yan Wang
 
+[![arXiv](https://img.shields.io/badge/Arxiv-2503.12461-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2503.12461)
+
 **Key words: Learned image compression, State space model, Context model.**
+
+## :newspaper: News
+
+- **[2025.03.18]** We release camera-ready submission on [arxiv](https://arxiv.org/abs/2503.12461). :cake:
+- **[2025.03.15]** Github repo is available. :candy:
+- **[2025.02.27]** **MambaIC** has been accepted by **CVPR 2025**! :tada:
 
 
 ## Abstract
