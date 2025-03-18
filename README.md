@@ -1,6 +1,6 @@
 # MambaIC: State Space Models for High-Performance Learned Image Compression (CVPR 2025)
 
-This repo is the official implementation of CVPR 2025 paper
+This repo is the official implementation of CVPR 2025 paper: [**MambaIC: State Space Models for High-Performance Learned Image Compression**](https://arxiv.org/abs/2503.12461)
 
 > MambaIC: State Space Models for High-Performance Learned Image Compression
 >
@@ -10,7 +10,7 @@ This repo is the official implementation of CVPR 2025 paper
 
 **Key words: Learned image compression, State space model, Context model.**
 
-## :newspaper: News
+## :sparkles: News
 
 - **[2025.03.18]** We release camera-ready submission on [arxiv](https://arxiv.org/abs/2503.12461). :cake:
 - **[2025.03.15]** Github repo is available. :candy:
@@ -22,11 +22,12 @@ A high-performance image compression algorithm is crucial for real-time informat
 
 ## :house: Architecture
 
-overall structure of MambaIC
+Overall structure of MambaIC.
+
 ![structure](figures/structure.png)
 
+Illustration of the proposed SSM-based context entropy model with window-based local attention.
 
-the proposed spatial-channel context model
 ![context](figures/context.png)
 
 ## Environmental Setup
@@ -80,7 +81,8 @@ MambaIC
 ## Experimental Results
 
 
-Results on Kodak
+Quantitative RD Results on Kodak (*left*: PSNR, *Right*: MS-SSIM).
+
 ![results](figures/results.png)
 
 ## :blue_book: Citation
