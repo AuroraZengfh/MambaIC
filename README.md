@@ -17,10 +17,10 @@ This repo is the official implementation of CVPR 2025 paper
 - **[2025.02.27]** **MambaIC** has been accepted by **CVPR 2025**! :tada:
 
 
-## Abstract
+## :open_book: Abstract
 A high-performance image compression algorithm is crucial for real-time information transmission across numerous fields. Despite rapid progress in image compression, computational inefficiency and poor redundancy modeling still pose significant bottlenecks, limiting practical applications. Inspired by the effectiveness of state space models (SSMs) in capturing long-range dependencies, we leverage SSMs to address computational inefficiency in existing methods and improve image compression from multiple perspectives. In this paper, we integrate the advantages of SSMs for better efficiency-performance trade-off and propose an enhanced image compression approach through refined context modeling, which we term MambaIC. Specifically, we explore context modeling to adaptively refine the representation of hidden states. Additionally, we introduce window-based local attention into channel-spatial entropy modeling to reduce potential spatial redundancy during compression, thereby increasing efficiency. Comprehensive qualitative and quantitative results validate the effectiveness and efficiency of our approach, particularly for high-resolution image compression.
 
-## Architecture
+## :house: Architecture
 
 overall structure of MambaIC
 ![structure](figures/structure.png)
@@ -87,7 +87,7 @@ Results on Kodak
 If you find this work useful, consider giving this repository a star :star: and citing :bookmark_tabs: our paper as follows:
 
 ```bibtex
-@article{zeng2025mamba,
+@article{zeng2025mambaic,
   title={MambaIC: State Space Models for High-Performance Learned Image Compression},
   author={Zeng, Fanhu and Tang, Hao and Shao, Yihua and Chen, Siyu and Shao, Ling and Wang, Yan},
   journal={arXiv preprint arXiv:2503.12461},
