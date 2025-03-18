@@ -79,8 +79,16 @@ Results on Kodak
 If you find this work useful, consider giving this repository a star :star: and citing :bookmark_tabs: our paper as follows:
 
 ```bibtex
-
+https://arxiv.org/abs/2503.12461
 ```
+
+
+@article{zeng2025mamba,
+  title={MambaIC: State Space Models for High-Performance Learned Image Compression},
+  author={Zeng, Fanhu and Tang, Hao and Shao, Yihua and Chen, Siyu and Shao, Ling and Wang, Yan},
+  journal={arXiv preprint arXiv:2503.12461},
+  year={2025}
+}
 
 ## Note
 This is not the exact original code and is a re-implementation of our CVPR 2025 paper. But the core code and experimental results are almost the same, with slight difference.
