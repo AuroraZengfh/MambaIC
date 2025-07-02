@@ -6,12 +6,12 @@ This repo is the official implementation of CVPR 2025 paper: [**MambaIC: State S
 >
 > Fanhu Zeng, Hao Tang, Yihua Shao, Siyu Chen, Ling Shao, Yan Wang
 
-[![arXiv](https://img.shields.io/badge/Arxiv-2503.12461-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2503.12461)
+[![arXiv](https://img.shields.io/badge/Arxiv-2503.12461-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2503.12461) [![arXiv](https://img.shields.io/badge/TheCVF-Paper-blue.svg?logo=cvf)](https://openaccess.thecvf.com/content/CVPR2025/papers/Zeng_MambaIC_State_Space_Models_for_High-Performance_Learned_Image_Compression_CVPR_2025_paper.pdf)
 
 **Key words: Learned image compression, State space model, Context model.**
 
 ## :sparkles: News
-
+- **[2025.06.15]** CVPR 2025 Open Access version is available on [openaccess.thecvf.com](https://openaccess.thecvf.com/content/CVPR2025/papers/Zeng_MambaIC_State_Space_Models_for_High-Performance_Learned_Image_Compression_CVPR_2025_paper.pdf).
 - **[2025.03.18]** We release camera-ready submission on [arxiv](https://arxiv.org/abs/2503.12461). :cake:
 - **[2025.03.15]** Github repo is available. :candy:
 - **[2025.02.27]** **MambaIC** has been accepted by **CVPR 2025**! :tada:
@@ -89,10 +89,11 @@ Quantitative RD Results on Kodak (*left*: PSNR, *Right*: MS-SSIM).
 If you find this work useful, consider giving this repository a star :star: and citing :bookmark_tabs: our paper as follows:
 
 ```bibtex
-@article{zeng2025mambaic,
+@inproceedings{zeng2025mambaic,
   title={MambaIC: State Space Models for High-Performance Learned Image Compression},
   author={Zeng, Fanhu and Tang, Hao and Shao, Yihua and Chen, Siyu and Shao, Ling and Wang, Yan},
-  journal={arXiv preprint arXiv:2503.12461},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={18041--18050},
   year={2025}
 }
 ```
