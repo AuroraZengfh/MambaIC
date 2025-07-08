@@ -71,9 +71,11 @@ MambaIC
 ###
 
 ## Training 
+Our default training dataset is Flickr30k (30k images), you can also try to train the model on larger datasets like OpenImages dataset (first 400K images)
 ```
 sh train.sh
 ```
+Remember to replace *save-path*, *train-dataname* and *test-dataname* in the script with your own path.
 
 ## Evaluation
 ```
