@@ -12,7 +12,7 @@ This repo is the official implementation of CVPR 2025 paper: [**MambaIC: State S
 
 ## :sparkles: News
 - **[2025.07.08]** We release code for [training](#training) and [evaluation](#evaluation) script for MambaIC. Try it now! :fire:
-- **[2025.06.15]** CVPR 2025 Open Access version is available on [openaccess.thecvf.com](https://openaccess.thecvf.com/content/CVPR2025/papers/Zeng_MambaIC_State_Space_Models_for_High-Performance_Learned_Image_Compression_CVPR_2025_paper.pdf).
+- **[2025.06.15]** CVPR 2025 Open Access version is available on [openaccess.thecvf.com](https://openaccess.thecvf.com/content/CVPR2025/html/Zeng_MambaIC_State_Space_Models_for_High-Performance_Learned_Image_Compression_CVPR_2025_paper.html).
 - **[2025.03.18]** We release camera-ready submission on [arxiv](https://arxiv.org/abs/2503.12461). :cake:
 - **[2025.03.15]** Github repo is available. :candy:
 - **[2025.02.27]** **MambaIC** has been accepted by **CVPR 2025**! :tada:
