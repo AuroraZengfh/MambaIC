@@ -72,14 +72,15 @@ MambaIC
 
 ## Training 
 ```
+sh train.sh
 ```
 
 ## Evaluation
 ```
+sh eval.sh
 ```
 
 ## Experimental Results
-
 
 Quantitative RD Results on Kodak (*left*: PSNR, *Right*: MS-SSIM).
 
