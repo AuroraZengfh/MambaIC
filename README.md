@@ -81,6 +81,7 @@ Remember to replace *save-path*, *train-dataname* and *test-dataname* in the scr
 ```
 sh eval.sh
 ```
+Set your own test data by parameter *--data*.
 
 ## Experimental Results
 
