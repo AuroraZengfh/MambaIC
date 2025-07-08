@@ -71,7 +71,7 @@ MambaIC
 ###
 
 ## Training 
-Our default training dataset is Flickr30k (30k images), you can also try to train the model on larger datasets like OpenImages dataset (first 400K images)
+Our default training dataset is [Flickr30k](https://shannon.cs.illinois.edu/DenotationGraph/) (30k images), you can also try to train the model on larger datasets like OpenImages dataset (first 400K images)
 ```
 sh train.sh
 ```
