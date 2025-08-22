@@ -82,7 +82,7 @@ Remember to replace *save-path*, *train-dataname* and *test-dataname* in the scr
 ```
 sh eval.sh
 ```
-Set your own test data by parameter *--data*.
+Set your own test data and checkpoint by parameter *--data* and *--checkpoint*.
 
 ## Experimental Results
 
