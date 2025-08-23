@@ -104,7 +104,9 @@ If you find this work useful, consider giving this repository a star :star: and 
 ```
 
 ## Note
-This is not the exact original code and is a re-implementation of our CVPR 2025 paper. But the core code and experimental results are almost the same, with slight difference.
+1. This is not the exact original code and is a re-implementation of our CVPR 2025 paper. But the core code and experimental results are almost the same, with slight difference.
+
+2. This is to make a clear clarification that, unlike previous works that use $\times$ 12.7 larger OpenImages as training dataset, we use Flickr30k, which may cause some misunderstandings in BD-rate calculation. 
 
 ## Acknowledgememnt
 
