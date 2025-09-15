@@ -6,6 +6,7 @@ This repo is the official implementation of CVPR 2025 paper: [**MambaIC: State S
 >
 > Fanhu Zeng, Hao Tang, Yihua Shao, Siyu Chen, Ling Shao, Yan Wang
 
+[![🤗 Model (HuggingFace)](https://img.shields.io/badge/Model-HuggingFace-FFD21E.svg?logo=huggingface&logoColor=yellow)](https://huggingface.co/AuroraZengfh/MambaIC)
 [![arXiv](https://img.shields.io/badge/Arxiv-2503.12461-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2503.12461) [![arXiv](https://img.shields.io/badge/TheCVF-Paper-blue.svg?logo=cvf)](https://openaccess.thecvf.com/content/CVPR2025/papers/Zeng_MambaIC_State_Space_Models_for_High-Performance_Learned_Image_Compression_CVPR_2025_paper.pdf)
 
 **Key words: Learned image compression, State space model, Context model.**
