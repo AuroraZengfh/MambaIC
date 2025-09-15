@@ -11,6 +11,7 @@ This repo is the official implementation of CVPR 2025 paper: [**MambaIC: State S
 **Key words: Learned image compression, State space model, Context model.**
 
 ## :sparkles: News
+- **[2025.09.15]** We release [models](https://huggingface.co/AuroraZengfh/MambaIC) to provide a quick evaluation for MambaIC. :art:
 - **[2025.07.08]** We release code for [training](#training) and [evaluation](#evaluation) script for MambaIC. Try it now! :fire:
 - **[2025.06.15]** CVPR 2025 Open Access version is available on [openaccess.thecvf.com](https://openaccess.thecvf.com/content/CVPR2025/html/Zeng_MambaIC_State_Space_Models_for_High-Performance_Learned_Image_Compression_CVPR_2025_paper.html).
 - **[2025.03.18]** We release camera-ready submission on [arxiv](https://arxiv.org/abs/2503.12461). :cake:
@@ -68,7 +69,6 @@ MambaIC
         ...
 ```
 
-
 ###
 
 ## Training 
@@ -83,6 +83,9 @@ Remember to replace *save-path*, *train-dataname* and *test-dataname* in the scr
 sh eval.sh
 ```
 Set your own test data and checkpoint by parameter *--data* and *--checkpoint*.
+
+## Pretrained Models
+We provide a re-implementation of $\lambda$ 0.025 [checkpoint0.025.pth.tar](https://huggingface.co/AuroraZengfh/MambaIC) for quick evaluation. Performance may vary slightly due to hardware and code differences.
 
 ## Experimental Results
 
@@ -104,7 +107,7 @@ If you find this work useful, consider giving this repository a star :star: and 
 ```
 
 ## Note
-1. This is not the exact original code and is a re-implementation of our CVPR 2025 paper. But the core code and experimental results are almost the same, with slight difference.
+1. This is not the exact original code and is a re-implementation of our CVPR 2025 paper. But the core code and experimental results are almost the same, with slight difference and acceptable experimental deviation.
 
 2. This is to make a clear clarification that, unlike previous works that use $\times$ 12.7 larger OpenImages (400k) as training dataset, we use Flickr30k (30k), which may cause some misunderstandings in BD-rate between original papers and our paper. 
 
