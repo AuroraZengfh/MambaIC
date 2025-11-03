@@ -94,6 +94,11 @@ Quantitative RD Results on Kodak (*left*: PSNR, *Right*: MS-SSIM).
 
 ![results](figures/results.png)
 
+## Note
+1. This is not the exact original code and is a re-implementation of our CVPR 2025 paper. But the core code and experimental results are almost the same, with slight difference and acceptable experimental deviation.
+
+2. This is to make a clear clarification that, unlike previous works that use $\times$ 12.7 larger OpenImages (400k) as training dataset, we use Flickr30k (30k), which may cause some misunderstandings in BD-rate between original papers and our paper. 
+
 ## :blue_book: Citation
 If you find this work useful, consider giving this repository a star :star: and citing :bookmark_tabs: our paper as follows:
 
@@ -106,11 +111,6 @@ If you find this work useful, consider giving this repository a star :star: and 
   year={2025}
 }
 ```
-
-## Note
-1. This is not the exact original code and is a re-implementation of our CVPR 2025 paper. But the core code and experimental results are almost the same, with slight difference and acceptable experimental deviation.
-
-2. This is to make a clear clarification that, unlike previous works that use $\times$ 12.7 larger OpenImages (400k) as training dataset, we use Flickr30k (30k), which may cause some misunderstandings in BD-rate between original papers and our paper. 
 
 ## Acknowledgememnt
 
