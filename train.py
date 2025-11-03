@@ -433,13 +433,19 @@ def main(argv):
         pin_memory=(device == "cuda"),
     )
 
-
     if args.depths == None:
         net = MambaIC(depths=[2,2,9,2], N=args.N, M=args.M)
     else:
         net = MambaIC(depths= args.depths, N=args.N, M=args.M)
     net = net.to(device)
-
+    
+    # 启用多GPU
+    if torch.cuda.device_count() > 1:
+        logging.info(f"Using {torch.cuda.device_count()} GPUs for training")
+        net = nn.DataParallel(net)
+    else:
+        logging.info("Using single GPU for training")
+    
     optimizer, aux_optimizer = configure_optimizers(net, args)
     milestones = args.lr_epoch
     lr_scheduler = optim.lr_scheduler.MultiStepLR(optimizer, milestones, gamma=0.1, last_epoch=-1)
